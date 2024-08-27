@@ -52,6 +52,13 @@ public class LoginSteps extends base {
 
 	}
 	
+		@Then("error message should appears")
+	public void error_message_should2_appear() {
+		Assert.assertTrue(driver.findElement(By.name("username")).isDisplayed());
+
+		driver.quit();
+
+	}
 	
 	
 	
