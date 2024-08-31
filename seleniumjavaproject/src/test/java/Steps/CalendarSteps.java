@@ -89,7 +89,9 @@ public class CalendarSteps extends base{
 
 		calendar=calendar.ismonthview();
 
+
 	}
+	
 	@Then("git diff")
 	public void user_should_navigate_to_month_view_page()
 	{
@@ -97,7 +99,8 @@ public class CalendarSteps extends base{
 
 		calendar=calendar.ismonthview();
 
-	}
+	}    
+	
 	
 
 }
